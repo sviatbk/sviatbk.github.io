@@ -149,7 +149,7 @@ body {
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      background-image: url('..images/home.svg');
+      background-image: url('../images/home.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -735,7 +735,7 @@ body {
       width: 45px;
       height: 40px;
       transform: translateY(-50%);
-      background-image: url('..images/reverse.svg');
+      background-image: url('../images/reverse.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -817,7 +817,7 @@ body {
       left: 0;
       top: 50%;
       transform: translateY(-50%);
-      background-image: url('..images/comments.svg');
+      background-image: url('../images/comments.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -912,7 +912,7 @@ body {
     &::before{
       content: '';
       position: absolute;
-      background-image: url('..images/gray.svg');
+      background-image: url('../images/gray.svg');
       width: 10px;
       height: 10px;
       left: 0;
@@ -924,12 +924,12 @@ body {
     }
     &--missing{
       &::before{
-        background-image: url('..images/mising.svg');
+        background-image: url('../images/mising.svg');
       }
     }
     &--waiting{
       &::before{
-        background-image: url('..images/waiting.svg');
+        background-image: url('../images/waiting.svg');
       }
     }
   }
@@ -1237,7 +1237,7 @@ body {
       border: none;
       width: 12px;
       height: 12px;
-      background-image: url('..images/back_down.svg');
+      background-image: url('../images/back_down.svg');
       background-position: center;
       background-repeat: no-repeat;
       background-size: contain;
@@ -1346,7 +1346,7 @@ body {
   }
   .slick-next{
     right: -20px;
-    background-image: url('..images/go.svg');
+    background-image: url('../images/go.svg');
     background-position: center;
     background-repeat: no-repeat;
     background-size: 50%;
